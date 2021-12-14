@@ -4,7 +4,7 @@ using JOIEnergy.Enums;
 
 namespace JOIEnergy.Services
 {
-    public class AccountService : Dictionary<string, Supplier>, IAccountService
+    public class AccountService : IAccountService
     { 
         private Dictionary<string, Supplier> _smartMeterToPricePlanAccounts;
 
